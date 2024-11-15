@@ -1,0 +1,1141 @@
+{
+	"info": {
+		"_postman_id": "c4365583-21a8-4594-9de6-4a3feccde3ad",
+		"name": "learn_with_Jon",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "37986999"
+	},
+	"item": [
+		{
+			"name": "Post",
+			"item": [
+				{
+					"name": "index",
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "Accept",
+								"value": "application/json",
+								"type": "text"
+							}
+						],
+						"url": {
+							"raw": "{{url}}/api/posts",
+							"host": [
+								"{{url}}"
+							],
+							"path": [
+								"api",
+								"posts"
+							]
+						}
+					},
+					"response": [
+						{
+							"name": "index",
+							"originalRequest": {
+								"method": "GET",
+								"header": [
+									{
+										"key": "Accept",
+										"value": "application/json",
+										"type": "text"
+									}
+								],
+								"url": {
+									"raw": "{{url}}/api/posts",
+									"host": [
+										"{{url}}"
+									],
+									"path": [
+										"api",
+										"posts"
+									]
+								}
+							},
+							"status": "OK",
+							"code": 200,
+							"_postman_previewlanguage": "json",
+							"header": [
+								{
+									"key": "Host",
+									"value": "127.0.0.1:8000"
+								},
+								{
+									"key": "Connection",
+									"value": "close"
+								},
+								{
+									"key": "X-Powered-By",
+									"value": "PHP/8.2.12"
+								},
+								{
+									"key": "Cache-Control",
+									"value": "no-cache, private"
+								},
+								{
+									"key": "Date",
+									"value": "Thu, 14 Nov 2024 14:26:24 GMT"
+								},
+								{
+									"key": "Content-Type",
+									"value": "application/json"
+								},
+								{
+									"key": "Access-Control-Allow-Origin",
+									"value": "*"
+								}
+							],
+							"cookie": [],
+							"body": "{\n    \"message\": \"success\",\n    \"data\": [\n        {\n            \"id\": 10,\n            \"user_id\": 5,\n            \"title\": \"Dr.\",\n            \"description\": \"Alice said to itself 'The Duchess! The Duchess! Oh my fur and whiskers! She'll get me executed, as sure as ferrets are ferrets! Where CAN I have done just as well say,' added the Dormouse, not.\",\n            \"created_at\": \"2024-11-14T14:09:30.000000Z\",\n            \"updated_at\": \"2024-11-14T14:09:30.000000Z\"\n        },\n        {\n            \"id\": 9,\n            \"user_id\": 7,\n            \"title\": \"Prof.\",\n            \"description\": \"ME, and told me you had been jumping about like mad things all this grand procession, came THE KING AND QUEEN OF HEARTS. Alice was beginning to feel a little door was shut again, and all must have.\",\n            \"created_at\": \"2024-11-14T14:09:30.000000Z\",\n            \"updated_at\": \"2024-11-14T14:09:30.000000Z\"\n        },\n        {\n            \"id\": 8,\n            \"user_id\": 7,\n            \"title\": \"Prof.\",\n            \"description\": \"I'll have you executed.' The miserable Hatter dropped his teacup instead of the conversation. Alice felt a very curious thing, and longed to get through the doorway; 'and even if I would talk on.\",\n            \"created_at\": \"2024-11-14T14:09:30.000000Z\",\n            \"updated_at\": \"2024-11-14T14:09:30.000000Z\"\n        },\n        {\n            \"id\": 7,\n            \"user_id\": 3,\n            \"title\": \"Prof.\",\n            \"description\": \"I? Ah, THAT'S the great hall, with the bread-and-butter getting so used to read fairy-tales, I fancied that kind of authority among them, called out, 'First witness!' The first witness was the.\",\n            \"created_at\": \"2024-11-14T14:09:30.000000Z\",\n            \"updated_at\": \"2024-11-14T14:09:30.000000Z\"\n        },\n        {\n            \"id\": 6,\n            \"user_id\": 10,\n            \"title\": \"Prof.\",\n            \"description\": \"I'd gone to see how he can thoroughly enjoy The pepper when he finds out who was passing at the March Hare. 'It was a bright idea came into her face, with such a nice little histories about children.\",\n            \"created_at\": \"2024-11-14T14:09:30.000000Z\",\n            \"updated_at\": \"2024-11-14T14:09:30.000000Z\"\n        },\n        {\n            \"id\": 5,\n            \"user_id\": 3,\n            \"title\": \"Ms.\",\n            \"description\": \"Be off, or I'll have you got in as well,' the Hatter were having tea at it: a Dormouse was sitting on the other paw, 'lives a March Hare. The Hatter looked at Alice, as she swam nearer to watch.\",\n            \"created_at\": \"2024-11-14T14:09:30.000000Z\",\n            \"updated_at\": \"2024-11-14T14:09:30.000000Z\"\n        },\n        {\n            \"id\": 4,\n            \"user_id\": 6,\n            \"title\": \"Mrs.\",\n            \"description\": \"Alice, 'and why it is you hate--C and D,' she added in an offended tone. And the muscular strength, which it gave to my jaw, Has lasted the rest of the deepest contempt. 'I've seen a rabbit with.\",\n            \"created_at\": \"2024-11-14T14:09:30.000000Z\",\n            \"updated_at\": \"2024-11-14T14:09:30.000000Z\"\n        },\n        {\n            \"id\": 3,\n            \"user_id\": 5,\n            \"title\": \"Dr.\",\n            \"description\": \"I've got to the other, and making quite a commotion in the chimney close above her: then, saying to her ear. 'You're thinking about something, my dear, I think?' 'I had NOT!' cried the Mouse, who.\",\n            \"created_at\": \"2024-11-14T14:09:30.000000Z\",\n            \"updated_at\": \"2024-11-14T14:09:30.000000Z\"\n        },\n        {\n            \"id\": 2,\n            \"user_id\": 5,\n            \"title\": \"Mr.\",\n            \"description\": \"Alice, that she had a consultation about this, and after a pause: 'the reason is, that there's any one left alive!' She was a general chorus of voices asked. 'Why, SHE, of course,' he said to Alice.\",\n            \"created_at\": \"2024-11-14T14:09:30.000000Z\",\n            \"updated_at\": \"2024-11-14T14:09:30.000000Z\"\n        },\n        {\n            \"id\": 1,\n            \"user_id\": 5,\n            \"title\": \"Prof.\",\n            \"description\": \"Dinah at you!' There was a large fan in the distance, sitting sad and lonely on a summer day: The Knave shook his head off outside,' the Queen merely remarking that a moment's delay would cost them.\",\n            \"created_at\": \"2024-11-14T14:09:30.000000Z\",\n            \"updated_at\": \"2024-11-14T14:09:30.000000Z\"\n        }\n    ]\n}"
+						}
+					]
+				},
+				{
+					"name": "store",
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "2|E11bOiZgnZQ8Puv9fjIt90m8lA3651U8ztJCm9uq22387e02",
+									"type": "string"
+								}
+							]
+						},
+						"method": "POST",
+						"header": [
+							{
+								"key": "Accept",
+								"value": "application/json",
+								"type": "text"
+							},
+							{
+								"key": "",
+								"value": "",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "formdata",
+							"formdata": [
+								{
+									"key": "title",
+									"value": "test title",
+									"type": "text"
+								},
+								{
+									"key": "description",
+									"value": "test desc",
+									"type": "text"
+								}
+							]
+						},
+						"url": {
+							"raw": "{{url}}/api/posts",
+							"host": [
+								"{{url}}"
+							],
+							"path": [
+								"api",
+								"posts"
+							]
+						}
+					},
+					"response": [
+						{
+							"name": "store",
+							"originalRequest": {
+								"method": "POST",
+								"header": [
+									{
+										"key": "Accept",
+										"value": "application/json",
+										"type": "text"
+									},
+									{
+										"key": "",
+										"value": "",
+										"type": "text"
+									}
+								],
+								"body": {
+									"mode": "formdata",
+									"formdata": [
+										{
+											"key": "user_id",
+											"value": "1",
+											"type": "text"
+										},
+										{
+											"key": "title",
+											"value": "test title",
+											"type": "text"
+										},
+										{
+											"key": "description",
+											"value": "test desc",
+											"type": "text"
+										}
+									]
+								},
+								"url": {
+									"raw": "{{url}}/api/posts",
+									"host": [
+										"{{url}}"
+									],
+									"path": [
+										"api",
+										"posts"
+									]
+								}
+							},
+							"status": "OK",
+							"code": 200,
+							"_postman_previewlanguage": "json",
+							"header": [
+								{
+									"key": "Host",
+									"value": "127.0.0.1:8000"
+								},
+								{
+									"key": "Connection",
+									"value": "close"
+								},
+								{
+									"key": "X-Powered-By",
+									"value": "PHP/8.2.12"
+								},
+								{
+									"key": "Cache-Control",
+									"value": "no-cache, private"
+								},
+								{
+									"key": "Date",
+									"value": "Thu, 14 Nov 2024 14:36:30 GMT"
+								},
+								{
+									"key": "Content-Type",
+									"value": "application/json"
+								},
+								{
+									"key": "Access-Control-Allow-Origin",
+									"value": "*"
+								}
+							],
+							"cookie": [],
+							"body": "{\n    \"message\": \"success\",\n    \"data\": {\n        \"user_id\": \"1\",\n        \"title\": \"test title\",\n        \"description\": \"test desc\",\n        \"updated_at\": \"2024-11-14T14:36:30.000000Z\",\n        \"created_at\": \"2024-11-14T14:36:30.000000Z\",\n        \"id\": 11\n    }\n}"
+						},
+						{
+							"name": "store",
+							"originalRequest": {
+								"method": "POST",
+								"header": [
+									{
+										"key": "Accept",
+										"value": "application/json",
+										"type": "text"
+									},
+									{
+										"key": "",
+										"value": "",
+										"type": "text"
+									},
+									{
+										"key": "Content-Type",
+										"value": "application/json",
+										"type": "text"
+									}
+								],
+								"body": {
+									"mode": "formdata",
+									"formdata": [],
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "{{url}}/api/posts",
+									"host": [
+										"{{url}}"
+									],
+									"path": [
+										"api",
+										"posts"
+									]
+								}
+							},
+							"status": "OK",
+							"code": 200,
+							"_postman_previewlanguage": "json",
+							"header": [
+								{
+									"key": "Host",
+									"value": "127.0.0.1:8000"
+								},
+								{
+									"key": "Connection",
+									"value": "close"
+								},
+								{
+									"key": "X-Powered-By",
+									"value": "PHP/8.2.12"
+								},
+								{
+									"key": "Cache-Control",
+									"value": "no-cache, private"
+								},
+								{
+									"key": "Date",
+									"value": "Thu, 14 Nov 2024 14:39:33 GMT"
+								},
+								{
+									"key": "Content-Type",
+									"value": "application/json"
+								},
+								{
+									"key": "Access-Control-Allow-Origin",
+									"value": "*"
+								}
+							],
+							"cookie": [],
+							"body": "{\n    \"message\": \"success\",\n    \"data\": {\n        \"user_id\": 2,\n        \"title\": \"test title 2\",\n        \"description\": \"test desc 2\",\n        \"updated_at\": \"2024-11-14T14:39:33.000000Z\",\n        \"created_at\": \"2024-11-14T14:39:33.000000Z\",\n        \"id\": 12\n    }\n}"
+						}
+					]
+				},
+				{
+					"name": "show",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{url}}/api/posts/4",
+							"host": [
+								"{{url}}"
+							],
+							"path": [
+								"api",
+								"posts",
+								"4"
+							]
+						}
+					},
+					"response": [
+						{
+							"name": "example show",
+							"originalRequest": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "{{url}}/api/posts/4",
+									"host": [
+										"{{url}}"
+									],
+									"path": [
+										"api",
+										"posts",
+										"4"
+									]
+								}
+							},
+							"status": "OK",
+							"code": 200,
+							"_postman_previewlanguage": "json",
+							"header": [
+								{
+									"key": "Host",
+									"value": "127.0.0.1:8000"
+								},
+								{
+									"key": "Connection",
+									"value": "close"
+								},
+								{
+									"key": "X-Powered-By",
+									"value": "PHP/8.2.12"
+								},
+								{
+									"key": "Cache-Control",
+									"value": "no-cache, private"
+								},
+								{
+									"key": "Date",
+									"value": "Thu, 14 Nov 2024 14:45:41 GMT"
+								},
+								{
+									"key": "Content-Type",
+									"value": "application/json"
+								},
+								{
+									"key": "Access-Control-Allow-Origin",
+									"value": "*"
+								}
+							],
+							"cookie": [],
+							"body": "{\n    \"message\": \"success\",\n    \"data\": {\n        \"id\": 4,\n        \"user_id\": 6,\n        \"title\": \"Mrs.\",\n        \"description\": \"Alice, 'and why it is you hate--C and D,' she added in an offended tone. And the muscular strength, which it gave to my jaw, Has lasted the rest of the deepest contempt. 'I've seen a rabbit with.\",\n        \"created_at\": \"2024-11-14T14:09:30.000000Z\",\n        \"updated_at\": \"2024-11-14T14:09:30.000000Z\"\n    }\n}"
+						}
+					]
+				},
+				{
+					"name": "update",
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "2|E11bOiZgnZQ8Puv9fjIt90m8lA3651U8ztJCm9uq22387e02",
+									"type": "string"
+								}
+							]
+						},
+						"method": "PATCH",
+						"header": [
+							{
+								"key": "Accept",
+								"value": "application/json",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"title\":\"update post\",\r\n    \"description\": \"update desc\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{url}}/api/posts/11",
+							"host": [
+								"{{url}}"
+							],
+							"path": [
+								"api",
+								"posts",
+								"11"
+							]
+						}
+					},
+					"response": [
+						{
+							"name": "update",
+							"originalRequest": {
+								"method": "PATCH",
+								"header": [
+									{
+										"key": "Accept",
+										"value": "application/json",
+										"type": "text"
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": "{\r\n    \"title\":\"update post\",\r\n    \"description\": \"update desc\"\r\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "{{url}}/api/posts/5",
+									"host": [
+										"{{url}}"
+									],
+									"path": [
+										"api",
+										"posts",
+										"5"
+									]
+								}
+							},
+							"status": "OK",
+							"code": 200,
+							"_postman_previewlanguage": "json",
+							"header": [
+								{
+									"key": "Host",
+									"value": "127.0.0.1:8000"
+								},
+								{
+									"key": "Connection",
+									"value": "close"
+								},
+								{
+									"key": "X-Powered-By",
+									"value": "PHP/8.2.12"
+								},
+								{
+									"key": "Cache-Control",
+									"value": "no-cache, private"
+								},
+								{
+									"key": "Date",
+									"value": "Thu, 14 Nov 2024 14:54:21 GMT"
+								},
+								{
+									"key": "Content-Type",
+									"value": "application/json"
+								},
+								{
+									"key": "Access-Control-Allow-Origin",
+									"value": "*"
+								}
+							],
+							"cookie": [],
+							"body": "{\n    \"message\": \"success\",\n    \"data\": {\n        \"id\": 5,\n        \"user_id\": 3,\n        \"title\": \"update post\",\n        \"description\": \"update desc\",\n        \"created_at\": \"2024-11-14T14:09:30.000000Z\",\n        \"updated_at\": \"2024-11-14T14:54:21.000000Z\"\n    }\n}"
+						}
+					]
+				},
+				{
+					"name": "destory",
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "2|E11bOiZgnZQ8Puv9fjIt90m8lA3651U8ztJCm9uq22387e02",
+									"type": "string"
+								}
+							]
+						},
+						"method": "DELETE",
+						"header": [
+							{
+								"key": "Accept",
+								"value": "application/json",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{url}}/api/posts/11",
+							"host": [
+								"{{url}}"
+							],
+							"path": [
+								"api",
+								"posts",
+								"11"
+							]
+						}
+					},
+					"response": [
+						{
+							"name": "destory",
+							"originalRequest": {
+								"method": "DELETE",
+								"header": [
+									{
+										"key": "Accept",
+										"value": "application/json",
+										"type": "text"
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": "",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "{{url}}/api/posts/13",
+									"host": [
+										"{{url}}"
+									],
+									"path": [
+										"api",
+										"posts",
+										"13"
+									]
+								}
+							},
+							"status": "OK",
+							"code": 200,
+							"_postman_previewlanguage": "json",
+							"header": [
+								{
+									"key": "Host",
+									"value": "127.0.0.1:8000"
+								},
+								{
+									"key": "Connection",
+									"value": "close"
+								},
+								{
+									"key": "X-Powered-By",
+									"value": "PHP/8.2.12"
+								},
+								{
+									"key": "Cache-Control",
+									"value": "no-cache, private"
+								},
+								{
+									"key": "Date",
+									"value": "Thu, 14 Nov 2024 14:59:19 GMT"
+								},
+								{
+									"key": "Content-Type",
+									"value": "application/json"
+								},
+								{
+									"key": "Access-Control-Allow-Origin",
+									"value": "*"
+								}
+							],
+							"cookie": [],
+							"body": "{\n    \"message\": \"post delete success\",\n    \"data\": {\n        \"id\": 13,\n        \"user_id\": 1,\n        \"title\": \"test title\",\n        \"description\": \"test desc\",\n        \"created_at\": \"2024-11-14T14:40:18.000000Z\",\n        \"updated_at\": \"2024-11-14T14:40:18.000000Z\"\n    }\n}"
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "Auth",
+			"item": [
+				{
+					"name": "register",
+					"request": {
+						"auth": {
+							"type": "bearer"
+						},
+						"method": "POST",
+						"header": [
+							{
+								"key": "Accept",
+								"value": "application/json",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "formdata",
+							"formdata": [
+								{
+									"key": "name",
+									"value": "chan",
+									"type": "text"
+								},
+								{
+									"key": "email",
+									"value": "chan@123",
+									"type": "text"
+								},
+								{
+									"key": "password",
+									"value": "password",
+									"type": "text"
+								},
+								{
+									"key": "password_confirmation",
+									"value": "password",
+									"type": "text"
+								}
+							]
+						},
+						"url": {
+							"raw": "{{url}}/api/register",
+							"host": [
+								"{{url}}"
+							],
+							"path": [
+								"api",
+								"register"
+							]
+						}
+					},
+					"response": [
+						{
+							"name": "register",
+							"originalRequest": {
+								"method": "POST",
+								"header": [
+									{
+										"key": "Accept",
+										"value": "application/json",
+										"type": "text"
+									}
+								],
+								"body": {
+									"mode": "formdata",
+									"formdata": [
+										{
+											"key": "name",
+											"value": "admin",
+											"type": "text"
+										},
+										{
+											"key": "email",
+											"value": "admin@12345",
+											"type": "text"
+										},
+										{
+											"key": "password",
+											"value": "password",
+											"type": "text"
+										},
+										{
+											"key": "password_confirmation",
+											"value": "password",
+											"type": "text"
+										}
+									]
+								},
+								"url": {
+									"raw": "{{url}}/api/register",
+									"host": [
+										"{{url}}"
+									],
+									"path": [
+										"api",
+										"register"
+									]
+								}
+							},
+							"status": "OK",
+							"code": 200,
+							"_postman_previewlanguage": "json",
+							"header": [
+								{
+									"key": "Host",
+									"value": "127.0.0.1:8000"
+								},
+								{
+									"key": "Connection",
+									"value": "close"
+								},
+								{
+									"key": "X-Powered-By",
+									"value": "PHP/8.2.12"
+								},
+								{
+									"key": "Cache-Control",
+									"value": "no-cache, private"
+								},
+								{
+									"key": "Date",
+									"value": "Thu, 14 Nov 2024 17:40:25 GMT"
+								},
+								{
+									"key": "Content-Type",
+									"value": "application/json"
+								},
+								{
+									"key": "Access-Control-Allow-Origin",
+									"value": "*"
+								}
+							],
+							"cookie": [],
+							"body": "{\n    \"message\": \"registeration success!\",\n    \"token\": \"4|ZUb1VjuuJ0lHuNd7waWSH4D8xgWAriI0mwv5KHWBc5ed05ae\",\n    \"data\": {\n        \"name\": \"admin\",\n        \"email\": \"admin@12345\",\n        \"updated_at\": \"2024-11-14T17:40:25.000000Z\",\n        \"created_at\": \"2024-11-14T17:40:25.000000Z\",\n        \"id\": 14\n    }\n}"
+						}
+					]
+				},
+				{
+					"name": "login",
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "",
+									"type": "string"
+								}
+							]
+						},
+						"method": "POST",
+						"header": [
+							{
+								"key": "Accept",
+								"value": "application/json",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "formdata",
+							"formdata": [
+								{
+									"key": "email",
+									"value": "chan@123",
+									"type": "text"
+								},
+								{
+									"key": "password",
+									"value": "password",
+									"type": "text"
+								}
+							]
+						},
+						"url": {
+							"raw": "{{url}}/api/login",
+							"host": [
+								"{{url}}"
+							],
+							"path": [
+								"api",
+								"login"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "login with token",
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "10|ZvYt0ZHPvmPBnXWhqoNI50SwhQTvcK9ul4BLszO867ada562",
+									"type": "string"
+								}
+							]
+						},
+						"method": "POST",
+						"header": [
+							{
+								"key": "Accept",
+								"value": "application/json",
+								"type": "text"
+							},
+							{
+								"key": "Authorization",
+								"value": "b",
+								"type": "text",
+								"disabled": true
+							}
+						],
+						"body": {
+							"mode": "formdata",
+							"formdata": [
+								{
+									"key": "email",
+									"value": "mgmg@123",
+									"type": "text"
+								},
+								{
+									"key": "password",
+									"value": "password",
+									"type": "text"
+								}
+							]
+						},
+						"url": {
+							"raw": "{{url}}/api/login",
+							"host": [
+								"{{url}}"
+							],
+							"path": [
+								"api",
+								"login"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "logout",
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "3|Ogoc3tJEGVu31r5wbffsQEMNRllklSBEbRauTx7Cdd00b1de",
+									"type": "string"
+								}
+							]
+						},
+						"method": "POST",
+						"header": [
+							{
+								"key": "Accept",
+								"value": "application/json",
+								"type": "text"
+							}
+						],
+						"url": {
+							"raw": "{{url}}/api/logout",
+							"host": [
+								"{{url}}"
+							],
+							"path": [
+								"api",
+								"logout"
+							]
+						}
+					},
+					"response": [
+						{
+							"name": "logout",
+							"originalRequest": {
+								"method": "POST",
+								"header": [
+									{
+										"key": "Accept",
+										"value": "application/json",
+										"type": "text"
+									}
+								],
+								"url": {
+									"raw": "{{url}}/api/logout",
+									"host": [
+										"{{url}}"
+									],
+									"path": [
+										"api",
+										"logout"
+									]
+								}
+							},
+							"status": "OK",
+							"code": 200,
+							"_postman_previewlanguage": "json",
+							"header": [
+								{
+									"key": "Host",
+									"value": "127.0.0.1:8000"
+								},
+								{
+									"key": "Connection",
+									"value": "close"
+								},
+								{
+									"key": "X-Powered-By",
+									"value": "PHP/8.2.12"
+								},
+								{
+									"key": "Cache-Control",
+									"value": "no-cache, private"
+								},
+								{
+									"key": "Date",
+									"value": "Thu, 14 Nov 2024 18:08:00 GMT"
+								},
+								{
+									"key": "Content-Type",
+									"value": "application/json"
+								},
+								{
+									"key": "Access-Control-Allow-Origin",
+									"value": "*"
+								}
+							],
+							"cookie": [],
+							"body": "{\n    \"message\": \"you are logout !\"\n}"
+						}
+					]
+				},
+				{
+					"name": "checkAuthenticated?",
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "12|PmawY15mmL4jaOCCHigoWSbhTKRFQqxI0ETDlVgn4db886bf",
+									"type": "string"
+								}
+							]
+						},
+						"method": "GET",
+						"header": [
+							{
+								"key": "Accept",
+								"value": "application/json",
+								"type": "text"
+							}
+						],
+						"url": {
+							"raw": "{{url}}/api/user",
+							"host": [
+								"{{url}}"
+							],
+							"path": [
+								"api",
+								"user"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "Users",
+			"item": [
+				{
+					"name": "users list /index",
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "3|CoH6PuIrM8nhFOW2WUDGuLrQDJyUrIy8u0sRMlrta981afb2",
+									"type": "string"
+								}
+							]
+						},
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{url}}/api/users",
+							"host": [
+								"{{url}}"
+							],
+							"path": [
+								"api",
+								"users"
+							]
+						}
+					},
+					"response": [
+						{
+							"name": "users list /index",
+							"originalRequest": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "{{url}}/api/users",
+									"host": [
+										"{{url}}"
+									],
+									"path": [
+										"api",
+										"users"
+									]
+								}
+							},
+							"status": "OK",
+							"code": 200,
+							"_postman_previewlanguage": "json",
+							"header": [
+								{
+									"key": "Host",
+									"value": "127.0.0.1:8000"
+								},
+								{
+									"key": "Connection",
+									"value": "close"
+								},
+								{
+									"key": "X-Powered-By",
+									"value": "PHP/8.2.12"
+								},
+								{
+									"key": "Cache-Control",
+									"value": "no-cache, private"
+								},
+								{
+									"key": "Date",
+									"value": "Fri, 15 Nov 2024 03:11:11 GMT"
+								},
+								{
+									"key": "Content-Type",
+									"value": "application/json"
+								},
+								{
+									"key": "Access-Control-Allow-Origin",
+									"value": "*"
+								}
+							],
+							"cookie": [],
+							"body": "{\n    \"message\": \"users list success\",\n    \"data\": {\n        \"current_page\": 1,\n        \"data\": [\n            {\n                \"id\": 11,\n                \"name\": \"chan\",\n                \"email\": \"chan@123\",\n                \"email_verified_at\": null,\n                \"created_at\": \"2024-11-15T03:00:58.000000Z\",\n                \"updated_at\": \"2024-11-15T03:00:58.000000Z\"\n            },\n            {\n                \"id\": 10,\n                \"name\": \"Olen Maggio PhD\",\n                \"email\": \"vstreich@example.org\",\n                \"email_verified_at\": \"2024-11-15T03:00:39.000000Z\",\n                \"created_at\": \"2024-11-15T03:00:39.000000Z\",\n                \"updated_at\": \"2024-11-15T03:00:39.000000Z\"\n            },\n            {\n                \"id\": 9,\n                \"name\": \"Mattie Larkin\",\n                \"email\": \"eryn.dickens@example.net\",\n                \"email_verified_at\": \"2024-11-15T03:00:39.000000Z\",\n                \"created_at\": \"2024-11-15T03:00:39.000000Z\",\n                \"updated_at\": \"2024-11-15T03:00:39.000000Z\"\n            },\n            {\n                \"id\": 8,\n                \"name\": \"Dr. Brian Rau\",\n                \"email\": \"enos73@example.net\",\n                \"email_verified_at\": \"2024-11-15T03:00:39.000000Z\",\n                \"created_at\": \"2024-11-15T03:00:39.000000Z\",\n                \"updated_at\": \"2024-11-15T03:00:39.000000Z\"\n            },\n            {\n                \"id\": 7,\n                \"name\": \"Karen Romaguera\",\n                \"email\": \"iheaney@example.org\",\n                \"email_verified_at\": \"2024-11-15T03:00:39.000000Z\",\n                \"created_at\": \"2024-11-15T03:00:39.000000Z\",\n                \"updated_at\": \"2024-11-15T03:00:39.000000Z\"\n            },\n            {\n                \"id\": 6,\n                \"name\": \"Mrs. Ashly Zemlak I\",\n                \"email\": \"edmond.hegmann@example.org\",\n                \"email_verified_at\": \"2024-11-15T03:00:39.000000Z\",\n                \"created_at\": \"2024-11-15T03:00:39.000000Z\",\n                \"updated_at\": \"2024-11-15T03:00:39.000000Z\"\n            },\n            {\n                \"id\": 5,\n                \"name\": \"Prof. Geovanni Rath V\",\n                \"email\": \"xcorkery@example.com\",\n                \"email_verified_at\": \"2024-11-15T03:00:39.000000Z\",\n                \"created_at\": \"2024-11-15T03:00:39.000000Z\",\n                \"updated_at\": \"2024-11-15T03:00:39.000000Z\"\n            },\n            {\n                \"id\": 4,\n                \"name\": \"Hollie Dach IV\",\n                \"email\": \"lura.huels@example.com\",\n                \"email_verified_at\": \"2024-11-15T03:00:39.000000Z\",\n                \"created_at\": \"2024-11-15T03:00:39.000000Z\",\n                \"updated_at\": \"2024-11-15T03:00:39.000000Z\"\n            },\n            {\n                \"id\": 3,\n                \"name\": \"Guido Dare\",\n                \"email\": \"abernathy.lottie@example.org\",\n                \"email_verified_at\": \"2024-11-15T03:00:39.000000Z\",\n                \"created_at\": \"2024-11-15T03:00:39.000000Z\",\n                \"updated_at\": \"2024-11-15T03:00:39.000000Z\"\n            },\n            {\n                \"id\": 2,\n                \"name\": \"Prof. Haskell Sporer I\",\n                \"email\": \"hudson.corine@example.org\",\n                \"email_verified_at\": \"2024-11-15T03:00:39.000000Z\",\n                \"created_at\": \"2024-11-15T03:00:39.000000Z\",\n                \"updated_at\": \"2024-11-15T03:00:39.000000Z\"\n            }\n        ],\n        \"first_page_url\": \"http://127.0.0.1:8000/api/users?page=1\",\n        \"from\": 1,\n        \"last_page\": 2,\n        \"last_page_url\": \"http://127.0.0.1:8000/api/users?page=2\",\n        \"links\": [\n            {\n                \"url\": null,\n                \"label\": \"&laquo; Previous\",\n                \"active\": false\n            },\n            {\n                \"url\": \"http://127.0.0.1:8000/api/users?page=1\",\n                \"label\": \"1\",\n                \"active\": true\n            },\n            {\n                \"url\": \"http://127.0.0.1:8000/api/users?page=2\",\n                \"label\": \"2\",\n                \"active\": false\n            },\n            {\n                \"url\": \"http://127.0.0.1:8000/api/users?page=2\",\n                \"label\": \"Next &raquo;\",\n                \"active\": false\n            }\n        ],\n        \"next_page_url\": \"http://127.0.0.1:8000/api/users?page=2\",\n        \"path\": \"http://127.0.0.1:8000/api/users\",\n        \"per_page\": 10,\n        \"prev_page_url\": null,\n        \"to\": 10,\n        \"total\": 11\n    }\n}"
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "Test",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{url}}/api/test",
+					"host": [
+						"{{url}}"
+					],
+					"path": [
+						"api",
+						"test"
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "Test",
+					"originalRequest": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{url}}/api/test",
+							"host": [
+								"{{url}}"
+							],
+							"path": [
+								"api",
+								"test"
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "html",
+					"header": [
+						{
+							"key": "Host",
+							"value": "127.0.0.1:8000"
+						},
+						{
+							"key": "Connection",
+							"value": "close"
+						},
+						{
+							"key": "X-Powered-By",
+							"value": "PHP/8.2.12"
+						},
+						{
+							"key": "Content-Type",
+							"value": "text/html; charset=UTF-8"
+						},
+						{
+							"key": "Cache-Control",
+							"value": "no-cache, private"
+						},
+						{
+							"key": "Date",
+							"value": "Thu, 14 Nov 2024 13:53:26 GMT"
+						},
+						{
+							"key": "Access-Control-Allow-Origin",
+							"value": "*"
+						}
+					],
+					"cookie": [],
+					"body": "test"
+				}
+			]
+		}
+	]
+}

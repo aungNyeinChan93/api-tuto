@@ -68,6 +68,6 @@ class PostPolicy
     {
         return $user->id === $post->user_id
             ? Response::allow()
-            : Response::deny();
+            : Response::deny('only post-owner can modify the post');
     }
 }
