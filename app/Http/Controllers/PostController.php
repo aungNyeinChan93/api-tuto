@@ -4,11 +4,23 @@ namespace App\Http\Controllers;
 
 use App\Models\Post;
 // use App\Http\Requests\StorePostRequest;
-use App\Http\Requests\UpdatePostRequest;
-use Illuminate\Http\Request;
+// use App\Http\Requests\UpdatePostRequest;
 
-class PostController extends Controller
+use Illuminate\Http\Request;
+use Illuminate\Support\Facades\Gate;
+use Illuminate\Routing\Controllers\Middleware;
+use Illuminate\Routing\Controllers\HasMiddleware;
+
+
+class PostController extends Controller implements HasMiddleware
 {
+
+    public static function middleware()
+    {
+        return [
+            new Middleware('auth:sanctum', except: ['index', 'show']),
+        ];
+    }
     /**
      * Display a listing of the resource.
      */
@@ -28,12 +40,12 @@ class PostController extends Controller
     public function store(Request $request)
     {
         $fields = $request->validate([
-            'user_id' => 'required',
+            // 'user_id' => 'nullable',
             'title' => 'required|max:255',
             'description' => 'nullable',
         ]);
 
-        $post = Post::create($fields);
+        $post = $request->user()->posts()->create($fields);
 
         return response()->json([
             'message' => 'post create success',
@@ -58,6 +70,7 @@ class PostController extends Controller
      */
     public function update(Request $request, Post $post)
     {
+        Gate::authorize('modify', $post);
         $fields = $request->validate([
             'title' => "required",
             "description" => 'required',
@@ -76,6 +89,7 @@ class PostController extends Controller
      */
     public function destroy(Post $post)
     {
+        Gate::authorize("modify", $post);
         $post->delete();
         return response()->json([
             'message' => 'post delete success',
